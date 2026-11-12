@@ -5,14 +5,29 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>catch-ts</title>
+    <title>PaperDoll</title>
   </head>
   <body>
     <div id="app">
       <h1 class="rainbow-title">Dress Up</h1>
+      <button id="restartBtn">restart</button>
+
       <div id="game">
+        <img src="" alt="" />
+        <div id="left" class="leftRight">
+          <button id="topLeft" class="goLeft"></button>
+          <button id="midLeft" class="goLeft"></button>
+          <button id="bottomLeft" class="goLeft"></button>
+        </div>
         <canvas id="gameCanvas" width="464" height="930"></canvas>
-        <button id="restartBtn">restart</button>
+        <!-- <img src="./images/top.png" />
+        <img src="./images/middle.png" />
+        <img src="./images/bottom.png" /> -->
+        <div id="right" class="leftRight">
+          <button id="topRight" class="goRight"></button>
+          <button id="midRight" class="goRight"></button>
+          <button id="bottomRight" class="goRight"></button>
+        </div>
       </div>
     </div>
     <script type="module" src="./index.js"></script>
