@@ -1,0 +1,24 @@
+{
+  "name": "paperdoll",
+  "version": "1.0.0",
+  "description": "dress up dolls for willow",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LucyMoore/PaperDoll.git"
+  },
+  "author": "Lucy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucyMoore/PaperDoll/issues"
+  },
+  "homepage": "https://github.com/LucyMoore/PaperDoll#readme",
+  "devDependencies": {
+    "vite": "^8.3.8"
+  }
+}
